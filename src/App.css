@@ -1,0 +1,30 @@
+
+.App {
+  background-color: yellowgreen;
+  color: rgb(60, 18, 175) ;
+}
+
+.button {
+  background-color: burlywood;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(60, 18, 175);
+  background-color: burlywood;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin: 2px;
+}
+
+.button:hover {background-color: burlywood}
+
+.button:active {
+  background-color: #92868f;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
